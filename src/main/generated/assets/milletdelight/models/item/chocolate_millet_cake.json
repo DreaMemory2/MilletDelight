@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "milletdelight:item/chocolate_millet_cake"
+  }
+}
