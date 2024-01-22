@@ -4,20 +4,18 @@
   "experience": 1.0,
   "ingredients": [
     {
+      "item": "farmersdelight:pumpkin_slice"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
       "item": "milletdelight:millet"
-    },
-    {
-      "tag": "c:eggs"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "farmersdelight:onion"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "item": "milletdelight:fried_millet"
+    "item": "milletdelight:millet_pumpkin_soup"
   },
   "container": {
     "item": "minecraft:bowl"

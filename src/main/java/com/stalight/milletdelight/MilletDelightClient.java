@@ -9,5 +9,6 @@ public class MilletDelightClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(BlockList.WILD_MILLET, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(BlockList.MILLET, RenderLayer.getCutout());
     }
 }

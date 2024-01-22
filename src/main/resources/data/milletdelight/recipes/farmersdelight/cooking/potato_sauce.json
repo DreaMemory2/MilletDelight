@@ -4,20 +4,15 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "milletdelight:millet"
+      "item": "minecraft:potato"
     },
     {
-      "tag": "c:eggs"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "farmersdelight:onion"
+      "item": "minecraft:potato"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "item": "milletdelight:fried_millet"
+    "item": "milletdelight:potato_sauce"
   },
   "container": {
     "item": "minecraft:bowl"

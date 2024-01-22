@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sculk"
+    },
+    {
+      "item": "milletdelight:millet_cookie"
+    }
+  ],
+  "result": {
+    "item": "milletdelight:sculk_cookie"
+  }
+}

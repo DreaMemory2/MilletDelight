@@ -1,9 +1,6 @@
 package com.stalight.milletdelight;
 
-import com.stalight.milletdelight.registries.ModBlocksRegistry;
-import com.stalight.milletdelight.registries.ModItemGroup;
-import com.stalight.milletdelight.registries.ModItemsRegistry;
-import com.stalight.milletdelight.registries.ModTags;
+import com.stalight.milletdelight.registries.*;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -25,6 +22,8 @@ public class MilletDelight implements ModInitializer {
 		ModItemGroup.registerItemGroup();
 		/* Tags */
 		ModTags.registerTag();
+		/* Features */
+		ModFeatureGeneration.registerFeature();
 
 		LOGGER.info("Hello Fabric world!");
 	}

@@ -1,7 +1,7 @@
 {
   "block.milletdelight.wild_millet": "野生小米",
+  "block.milletdelight.millet": "小米",
 
-  "item.milletdelight.millet": "小米",
   "item.milletdelight.millet_gruel": "小米粥",
   "item.milletdelight.millet_pumpkin_soup": "小米南瓜粥",
   "item.milletdelight.millet_vegetable_soup": "小米蔬菜粥",
@@ -17,7 +17,7 @@
   "item.milletdelight.millet_noodle": "小米面条",
   "item.milletdelight.millet_noodles": "汤子",
   "item.milletdelight.tomato_millet_noodles": "番茄小米面",
-  "item.milletdelight.sweet_berry_cookie": "甜酱果夹心饼干",
+  "item.milletdelight.sweet_berry_cookie": "甜浆果夹心饼干",
   "item.milletdelight.chocolate_cookie": "巧克力夹心饼干",
   "item.milletdelight.honey_cookie": "蜂蜜夹心饼干",
   "item.milletdelight.millet_cookie": "小米饼干",
@@ -38,6 +38,8 @@
   "item.milletdelight.potato_millet_noodles": "土豆小米面",
   "item.milletdelight.potato_rolls": "煎饼果子",
   "item.milletdelight.potato_sauce": "土豆泥",
+  "item.milletdelight.pestle_mortar": "杵和臼",
+  "item.milletdelight.millet_panicle": "粟",
 
   "itemGroup.milletdelight.group" : "小米乐事"
 }

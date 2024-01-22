@@ -54,6 +54,8 @@ public class ModLanguageGenerator extends FabricLanguageProvider {
         translationBuilder.add(ItemList.PotatoMilletNoodles, "Potato Millet Noodles");
         translationBuilder.add(ItemList.PotatoRolls, "Potato Rolls");
         translationBuilder.add(ItemList.PotatoSauce, "Potato Sauce");
+        translationBuilder.add(ItemList.PestleMortar, "Pestle and Mortar");
+        translationBuilder.add(ItemList.MilletPanicle, "Millet Panicle");
         // ItemGroup
         translationBuilder.add(ModItemGroup.GROUP, "Millet Delight");
     }

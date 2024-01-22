@@ -7,17 +7,18 @@
       "item": "milletdelight:millet"
     },
     {
-      "tag": "c:eggs"
+      "item": "milletdelight:millet"
     },
     {
-      "item": "minecraft:carrot"
+      "item": "minecraft:sugar"
     },
     {
-      "item": "farmersdelight:onion"
+      "item": "minecraft:sugar"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "item": "milletdelight:fried_millet"
+    "item": "milletdelight:millet_cake"
   },
   "container": {
     "item": "minecraft:bowl"

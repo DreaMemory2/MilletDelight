@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "milletdelight:millet"
+    },
+    {
+      "item": "milletdelight:pestle_mortar"
+    }
+  ],
+  "result": {
+    "item": "milletdelight:millet_dust"
+  }
+}

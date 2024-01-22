@@ -4,20 +4,18 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "milletdelight:millet"
-    },
-    {
-      "tag": "c:eggs"
-    },
-    {
       "item": "minecraft:carrot"
     },
     {
-      "item": "farmersdelight:onion"
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "milletdelight:millet"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "item": "milletdelight:fried_millet"
+    "item": "milletdelight:millet_vegetable_soup"
   },
   "container": {
     "item": "minecraft:bowl"

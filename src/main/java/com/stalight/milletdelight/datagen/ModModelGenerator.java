@@ -1,6 +1,7 @@
 package com.stalight.milletdelight.datagen;
 
 import com.stalight.milletdelight.block.BlockList;
+import com.stalight.milletdelight.block.MilletCrop;
 import com.stalight.milletdelight.item.ItemList;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -16,6 +17,7 @@ public class ModModelGenerator extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerTintableCross(BlockList.WILD_MILLET, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerCrop(BlockList.MILLET, MilletCrop.AGE, 0, 1, 2, 3, 4, 5, 6, 7);
     }
 
     @Override
@@ -35,7 +37,6 @@ public class ModModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(ItemList.Marshmallow, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilkCookie, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilkMilletCake, Models.GENERATED);
-        itemModelGenerator.register(ItemList.Millet, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilletBall, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilletBeef, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilletCake, Models.GENERATED);
@@ -45,10 +46,12 @@ public class ModModelGenerator extends FabricModelProvider {
         itemModelGenerator.register(ItemList.MilletGruel, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilletNoodle, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilletNoodles, Models.GENERATED);
+        itemModelGenerator.register(ItemList.MilletPanicle, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilletPorkchop, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilletPumpkinSoup, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilletVegetableSoup, Models.GENERATED);
         itemModelGenerator.register(ItemList.MilletWine, Models.GENERATED);
+        itemModelGenerator.register(ItemList.PestleMortar, Models.GENERATED);
         itemModelGenerator.register(ItemList.PotatoMilletNoodles, Models.GENERATED);
         itemModelGenerator.register(ItemList.PotatoRolls, Models.GENERATED);
         itemModelGenerator.register(ItemList.SculkCookie, Models.GENERATED);

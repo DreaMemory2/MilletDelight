@@ -4,20 +4,15 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "milletdelight:millet"
+      "item": "milletdelight:millet_noodle"
     },
     {
-      "tag": "c:eggs"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "farmersdelight:onion"
+      "item": "farmersdelight:bone_broth"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "item": "milletdelight:fried_millet"
+    "item": "milletdelight:bone_millet_noodles"
   },
   "container": {
     "item": "minecraft:bowl"

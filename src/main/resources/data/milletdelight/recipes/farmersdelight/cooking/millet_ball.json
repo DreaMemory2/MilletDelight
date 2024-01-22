@@ -4,20 +4,21 @@
   "experience": 1.0,
   "ingredients": [
     {
-      "item": "milletdelight:millet"
+      "item": "milletdelight:millet_dust"
     },
     {
-      "tag": "c:eggs"
+      "item": "milletdelight:millet_dust"
     },
     {
-      "item": "minecraft:carrot"
+      "item": "minecraft:sugar"
     },
     {
-      "item": "farmersdelight:onion"
+      "item": "minecraft:sugar"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "item": "milletdelight:fried_millet"
+    "item": "milletdelight:millet_ball"
   },
   "container": {
     "item": "minecraft:bowl"

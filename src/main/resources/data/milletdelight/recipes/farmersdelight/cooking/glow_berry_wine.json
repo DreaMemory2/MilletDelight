@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "ingredients": [
+    {
+      "type": "minecraft:water",
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "result": {
+    "item": "milletdelight:glow_berry_wine"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  }
+}

@@ -4,4 +4,5 @@ import net.minecraft.block.Block;
 
 public class BlockList {
     public static Block WILD_MILLET;
+    public static Block MILLET;
 }

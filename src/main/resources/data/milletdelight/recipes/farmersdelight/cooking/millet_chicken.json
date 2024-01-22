@@ -7,17 +7,12 @@
       "item": "milletdelight:millet"
     },
     {
-      "tag": "c:eggs"
-    },
-    {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "farmersdelight:onion"
+      "item": "minecraft:cooked_chicken"
     }
   ],
+  "recipe_book_tab": "meals",
   "result": {
-    "item": "milletdelight:fried_millet"
+    "item": "milletdelight:millet_chicken"
   },
   "container": {
     "item": "minecraft:bowl"

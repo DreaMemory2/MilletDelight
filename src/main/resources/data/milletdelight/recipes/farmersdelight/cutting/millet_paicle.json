@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "milletdelight:millet_panicle"
+    }
+  ],
+  "tool": {
+    "type": "farmersdelight:tool",
+    "tag": "c:tools/axes"
+  },
+  "result": [
+    {
+      "item": "milletdelight:millet"
+    },
+    {
+      "item": "farmersdelight:straw"
+    }
+  ],
+  "sound": "namespace:sound.to.play"
+}
