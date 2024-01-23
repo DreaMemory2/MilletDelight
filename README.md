@@ -1,5 +1,5 @@
 # **Welcome to Millet Delight**
-![](src/main/resources/assets/milletdelight/icon.png)
+![](https://s2.loli.net/2024/01/23/W6u7bxAHjUZ4QYE.png)
 
 ## Overview
 ### 📖 About
@@ -15,5 +15,4 @@ vegetable, and maybe enjoy more and more pleased! <br>
 - [Farmer's Delight](https://www.curseforge.com/minecraft/mc-mods/farmers-delight)
 
 ### ❔ **Details** 
-
-Updating...
+![](https://s2.loli.net/2024/01/23/xcRD5dH9eaUIVBE.png)

@@ -19,7 +19,7 @@ public class ModItemGroup {
     public static void registerItemGroup() {
         Registry.register(Registries.ITEM_GROUP, GROUP, FabricItemGroup.builder()
                 .displayName(Text.translatable("itemGroup.milletdelight.group"))
-                .icon(() -> new ItemStack(ItemList.MilletGruel))
+                .icon(() -> new ItemStack(ItemList.MilletCookie))
                 .build());
     }
 }
