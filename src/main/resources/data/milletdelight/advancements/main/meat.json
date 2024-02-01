@@ -1,0 +1,63 @@
+{
+  "parent": "milletdelight:main/material_food",
+  "criteria": {
+    "millet_beef": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:millet_beef"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "millet_chicken": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:millet_chicken"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "millet_porkchop": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:millet_porkchop"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.meat.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:millet_beef"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.meat"
+    }
+  },
+  "requirements": [
+    [
+      "millet_beef",
+      "millet_chicken",
+      "millet_porkchop"
+    ]
+  ]
+}

@@ -14,6 +14,7 @@ public class ItemList {
     public static Item MilletCookie;
     public static Item PestleMortar;
     public static Item MilletPanicle;
+    public static Item MilletKnife;
 
     // Food
     public static Item FriedMillet;

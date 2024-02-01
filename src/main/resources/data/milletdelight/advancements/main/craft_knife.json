@@ -1,0 +1,38 @@
+{
+  "parent": "milletdelight:main/root",
+  "criteria": {
+    "millet_knife": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:millet_knife"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.millet_knife.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "farmersdelight:golden_knife",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.millet_knife"
+    }
+  },
+  "requirements": [
+    [
+      "millet_knife"
+    ]
+  ]
+}

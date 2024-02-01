@@ -1,5 +1,6 @@
 package com.stalight.milletdelight.registries;
 
+import com.nhoryzon.mc.farmersdelight.block.RiceBaleBlock;
 import com.nhoryzon.mc.farmersdelight.block.WildPatchBlock;
 import com.stalight.milletdelight.MilletDelight;
 import com.stalight.milletdelight.block.BlockList;
@@ -18,9 +19,11 @@ import net.minecraft.util.Identifier;
 public class ModBlocksRegistry {
     public static void registerBlock() {
         // Crops
-        BlockList.WILD_MILLET = registerBlock("wild_millet", new WildPatchBlock());
-        BlockList.MILLET = withoutBlockItem("millet", new MilletCrop(FabricBlockSettings.copyOf(Blocks.WHEAT)));
-
+        BlockList.WildMillet = registerBlock("wild_millet", new WildPatchBlock());
+        BlockList.Millet = withoutBlockItem("millet", new MilletCrop(FabricBlockSettings.copyOf(Blocks.WHEAT)));
+        // Block
+        BlockList.MilletBag = registerBlock("millet_bag", new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
+        BlockList.MilletBale = registerBlock("millet_bale", new RiceBaleBlock());
     }
     private static Block registerBlock(String name, Block block) {
         ModBlocksRegistry.registerBlockItem(name, block);

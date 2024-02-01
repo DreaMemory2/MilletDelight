@@ -16,6 +16,6 @@ public class ModBlockTagGeneration extends FabricTagProvider.BlockTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         this.getOrCreateTagBuilder(TagsRegistry.WILD_CROPS)
-                .add(BlockList.WILD_MILLET);
+                .add(BlockList.WildMillet);
     }
 }

@@ -16,8 +16,8 @@ public class ModModelGenerator extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
-        blockStateModelGenerator.registerTintableCross(BlockList.WILD_MILLET, BlockStateModelGenerator.TintType.NOT_TINTED);
-        blockStateModelGenerator.registerCrop(BlockList.MILLET, MilletCrop.AGE, 0, 1, 2, 3, 4, 5, 6, 7);
+        blockStateModelGenerator.registerTintableCross(BlockList.WildMillet, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerCrop(BlockList.Millet, MilletCrop.AGE, 0, 1, 2, 3, 4, 5, 6, 7);
     }
 
     @Override

@@ -3,6 +3,11 @@ package com.stalight.milletdelight.block;
 import net.minecraft.block.Block;
 
 public class BlockList {
-    public static Block WILD_MILLET;
-    public static Block MILLET;
+    // CROP
+    public static Block WildMillet;
+    public static Block Millet;
+
+    // Block
+    public static Block MilletBag;
+    public static Block MilletBale;
 }

@@ -23,7 +23,7 @@ public class ModConfiguredFeatures {
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> context) {
         register(context, WILD_MILLET, Feature.RANDOM_PATCH,
                 ConfiguredFeatures.createRandomPatchFeatureConfig(64, PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK,
-                        new SimpleBlockFeatureConfig(BlockStateProvider.of(BlockList.WILD_MILLET)))));
+                        new SimpleBlockFeatureConfig(BlockStateProvider.of(BlockList.WildMillet)))));
     }
 
 }

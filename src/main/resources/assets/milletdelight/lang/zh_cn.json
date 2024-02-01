@@ -1,6 +1,8 @@
 {
   "block.milletdelight.wild_millet": "野生小米",
   "block.milletdelight.millet": "小米",
+  "block.milletdelight.millet_bag" : "小米袋",
+  "block.milletdelight.millet_bale": "小米块",
 
   "item.milletdelight.millet_gruel": "小米粥",
   "item.milletdelight.millet_pumpkin_soup": "小米南瓜粥",
@@ -41,5 +43,16 @@
   "item.milletdelight.pestle_mortar": "杵和臼",
   "item.milletdelight.millet_panicle": "粟",
 
-  "itemGroup.milletdelight.group" : "小米乐事"
+  "itemGroup.milletdelight.group" : "小米乐事",
+
+  "milletdelight.advancement.root" : "小米乐事",
+  "milletdelight.advancement.root.desc" : "小米，启动！",
+  "milletdelight.advancement.millet_knife": "小米飞刀",
+  "milletdelight.advancement.millet_knife.desc" : "获得一把小米刀",
+  "milletdelight.advancement.plant_millet": "粟果累累",
+  "milletdelight.advancement.plant_millet.desc": "在耕地里种一些小米",
+  "milletdelight.advancement.material_food": "提前准备",
+  "milletdelight.advancement.material_food.desc": "制作小米粉和小米面条",
+  "milletdelight.advancement.meat": "顿顿有肉",
+  "milletdelight.advancement.meat.desc": "小米与肉类灵魂组合"
 }

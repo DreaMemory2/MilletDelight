@@ -1,6 +1,8 @@
 {
   "block.milletdelight.millet": "Millet",
   "block.milletdelight.wild_millet": "Wild Millet",
+  "block.milletdelight.millet_bag" : "Bag Of Millet",
+  "block.milletdelight.millet_bale": "Millet Bale",
   "item.milletdelight.apple_sauce": "Apple Sauce",
   "item.milletdelight.bone_millet_noodles": "Bone Millet Noodles",
   "item.milletdelight.chocolate_cookie": "Chocolate Cookie",
@@ -39,5 +41,16 @@
   "item.milletdelight.sweet_berry_cookie": "Sweet Berry Cookie",
   "item.milletdelight.tomato_millet_noodles": "Tomato Millet Noodles",
   "item.milletdelight.wheat_wine": "Wheat Wine",
-  "itemGroup.milletdelight.group": "Millet Delight"
+  "itemGroup.milletdelight.group": "Millet Delight",
+
+  "milletdelight.advancement.root" : "Millet Delight",
+  "milletdelight.advancement.root.desc" : "Millet Start!",
+  "milletdelight.advancement.millet_knife": "Millet Fly Knife",
+  "milletdelight.advancement.millet_knife.desc" : "Get a Millet Knife",
+  "milletdelight.advancement.plant_millet": "More Millet",
+  "milletdelight.advancement.plant_millet.desc": "Plant Millet",
+  "milletdelight.advancement.material_food": "Advance Preparation",
+  "milletdelight.advancement.material_food.desc": "Make some Millet Dust and Millet Noodle",
+  "milletdelight.advancement.meat": "Have Meat Every Day",
+  "milletdelight.advancement.meat.desc": "Millet and Meat Group"
 }

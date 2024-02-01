@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "plant_rice": {
+      "conditions": {
+        "location": [
+          {
+            "item": "milletdelight:millet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/yellow_concrete.png",
+    "description": {
+      "translate": "milletdelight.advancement.root.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:millet"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.root"
+    }
+  }
+}

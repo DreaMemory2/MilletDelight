@@ -5,7 +5,6 @@ import com.stalight.milletdelight.item.ItemList;
 import com.stalight.milletdelight.registries.ModItemGroup;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
-import net.minecraft.item.Item;
 
 public class ModLanguageGenerator extends FabricLanguageProvider {
     public ModLanguageGenerator(FabricDataOutput dataOutput) {
@@ -15,7 +14,7 @@ public class ModLanguageGenerator extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
         // Block
-        translationBuilder.add(BlockList.WILD_MILLET, "Wild Millet");
+        translationBuilder.add(BlockList.WildMillet, "Wild Millet");
         // Item
         translationBuilder.add(ItemList.ChocolateCookie, "Chocolate Cookie");
         translationBuilder.add(ItemList.ChocolateMilletCake, "Chocolate Millet Cake");

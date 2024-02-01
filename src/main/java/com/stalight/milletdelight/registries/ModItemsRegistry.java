@@ -2,6 +2,7 @@ package com.stalight.milletdelight.registries;
 
 import com.nhoryzon.mc.farmersdelight.item.ConsumableItem;
 import com.nhoryzon.mc.farmersdelight.item.DrinkableItem;
+import com.nhoryzon.mc.farmersdelight.item.KnifeItem;
 import com.nhoryzon.mc.farmersdelight.registry.EffectsRegistry;
 import com.stalight.milletdelight.MilletDelight;
 import com.stalight.milletdelight.block.BlockList;
@@ -22,11 +23,12 @@ public class ModItemsRegistry {
 
     public static void registerItem() {
         // Item
-        ItemList.Millet = registerItem("millet", new BlockItem(BlockList.MILLET, new FabricItemSettings()));
+        ItemList.Millet = registerItem("millet", new BlockItem(BlockList.Millet, new FabricItemSettings()));
         ItemList.MilletDust = registerItem("millet_dust", new Item(new FabricItemSettings()));
         ItemList.MilletNoodle = registerItem("millet_noodle", new Item(new FabricItemSettings()));
         ItemList.PestleMortar = registerItem("pestle_mortar", new PestleMortar(new FabricItemSettings().maxCount(1)));
         ItemList.MilletPanicle = registerItem("millet_panicle", new Item(new FabricItemSettings()));
+        ItemList.MilletKnife = registerItem("millet_knife", new KnifeItem(net.minecraft.item.ToolMaterials.DIAMOND));
         // Food
         ItemList.AppleSauce = registerItem("apple_sauce",
                 new ConsumableItem(ModItemsRegistry.food(4, 0.3f, 0)));

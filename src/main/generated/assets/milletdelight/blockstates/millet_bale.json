@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "milletdelight:block/millet_bale",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "milletdelight:block/millet_bale"
+    },
+    "facing=north": {
+      "model": "milletdelight:block/millet_bale",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "milletdelight:block/millet_bale",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "milletdelight:block/millet_bale",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "milletdelight:block/millet_bale",
+      "x": 90,
+      "y": 90
+    }
+  }
+}
