@@ -1,0 +1,22 @@
+{
+  "textures": {
+    "particle":"milletdelight:block/millet_cakes_side",
+    "bottom":"milletdelight:block/millet_cakes_bottom",
+    "top":"milletdelight:block/millet_cakes_top",
+    "side":"milletdelight:block/millet_cakes_side",
+    "inside": "milletdelight:block/millet_cakes_inner"
+  },
+  "elements": [
+    {   "from": [ 3, 0, 1 ],
+      "to": [ 15, 8, 15 ],
+      "faces": {
+        "down":  { "texture": "#bottom", "cullface": "down" },
+        "up":    { "texture": "#top" },
+        "north": { "texture": "#side" },
+        "south": { "texture": "#side" },
+        "west":  { "texture": "#inside" },
+        "east":  { "texture": "#side" }
+      }
+    }
+  ]
+}

@@ -7,9 +7,12 @@ import net.minecraft.registry.tag.TagKey;
 import net.minecraft.util.Identifier;
 
 public class ModTags {
-    public static final TagKey<Item> MILLET_COOKIE = TagKey.of(RegistryKeys.ITEM, new Identifier(MilletDelight.MODID, "millet_cookie"));
-
+    public static TagKey<Item> milletCookie;
+    public static TagKey<Item> milletCake;
     public static void registerTag() {
+        milletCookie = TagKey.of(RegistryKeys.ITEM, new Identifier(MilletDelight.MODID, "millet_cookie"));
+        milletCake = TagKey.of(RegistryKeys.ITEM, new Identifier(MilletDelight.MODID, "millet_cake"));
+
         MilletDelight.LOGGER.info("Mod Tags");
     }
 }

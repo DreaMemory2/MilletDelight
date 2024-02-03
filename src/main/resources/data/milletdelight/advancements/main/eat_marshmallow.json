@@ -1,0 +1,37 @@
+{
+  "parent": "milletdelight:main/marshmallow",
+  "criteria": {
+    "cooked_marshmallow": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:cooked_marshmallow"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.cooked_marshmallow.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:cooked_marshmallow"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.cooked_marshmallow"
+    }
+  },
+  "requirements": [
+    [
+      "cooked_marshmallow"
+    ]
+  ]
+}

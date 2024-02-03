@@ -15,6 +15,8 @@ public class ItemList {
     public static Item PestleMortar;
     public static Item MilletPanicle;
     public static Item MilletKnife;
+    // 升级道具
+    public static Item MilletTemplate;
 
     // Food
     public static Item FriedMillet;

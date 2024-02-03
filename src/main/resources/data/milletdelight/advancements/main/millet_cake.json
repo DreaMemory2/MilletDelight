@@ -1,0 +1,42 @@
+{
+  "parent": "milletdelight:main/material_food",
+  "criteria": {
+    "millet_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:chocolate_millet_cake",
+              "milletdelight:chorus_millet_cake",
+              "milletdelight:glow_berry_millet_cake",
+              "milletdelight:chocolate_millet_cake",
+              "milletdelight:milk_millet_cake",
+              "milletdelight:sculk_millet_cake"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.millet_cake.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:millet_cake"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.millet_cake"
+    }
+  },
+  "requirements": [
+    [
+      "millet_cake"
+    ]
+  ]
+}

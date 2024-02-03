@@ -29,6 +29,7 @@ public class ModItemsRegistry {
         ItemList.PestleMortar = registerItem("pestle_mortar", new PestleMortar(new FabricItemSettings().maxCount(1)));
         ItemList.MilletPanicle = registerItem("millet_panicle", new Item(new FabricItemSettings()));
         ItemList.MilletKnife = registerItem("millet_knife", new KnifeItem(net.minecraft.item.ToolMaterials.DIAMOND));
+        ItemList.MilletTemplate = registerItem("millet_template", new Item(new FabricItemSettings()));
         // Food
         ItemList.AppleSauce = registerItem("apple_sauce",
                 new ConsumableItem(ModItemsRegistry.food(4, 0.3f, 0)));
@@ -75,21 +76,21 @@ public class ModItemsRegistry {
         /* -- 小米系列 --  */
         // 小吃
         ItemList.MilletCake = registerItem("millet_cake",
-                new ConsumableItem(ModItemsRegistry.food(4, 0.2f, ConsumableItem.BRIEF_DURATION)));
+                new ConsumableItem(ModItemsRegistry.food(4, 0.2f, ConsumableItem.BRIEF_DURATION))); // 30 seconds
         ItemList.MilletBall = registerItem("millet_ball",
                 new ConsumableItem(ModItemsRegistry.food(8, 0.375f, ConsumableItem.SHORT_DURATION)));
         ItemList.PotatoRolls = registerItem("potato_rolls",
-                new Item(ModItemsRegistry.food(6, 0.5f, 0)));
+                new Item(ModItemsRegistry.food(6, 0.5f, ConsumableItem.SHORT_DURATION))); // 1 minutes
         // 组合配餐
         ItemList.MilletBeef = registerItem("millet_beef",
-                new ConsumableItem(ModItemsRegistry.food(12, 0.8f, ConsumableItem.MEDIUM_DURATION)));
+                new ConsumableItem(ModItemsRegistry.food(12, 0.8f, ConsumableItem.MEDIUM_DURATION))); // 3 minutes
         ItemList.MilletChicken = registerItem("millet_chicken",
                 new ConsumableItem(ModItemsRegistry.food(12, 0.8f, ConsumableItem.MEDIUM_DURATION)));
         ItemList.MilletPorkchop = registerItem("millet_porkchop",
                 new ConsumableItem(ModItemsRegistry.food(12, 0.8f, ConsumableItem.MEDIUM_DURATION)));
         // Rice
         ItemList.FriedMillet = registerItem("fried_millet",
-                new ConsumableItem(ModItemsRegistry.food(14, 0.75f, ConsumableItem.LONG_DURATION)));
+                new ConsumableItem(ModItemsRegistry.food(14, 0.75f, ConsumableItem.LONG_DURATION))); // 5 minutes
         ItemList.CookedMillet = registerItem("cooked_millet",
                 new ConsumableItem(ModItemsRegistry.food(6, 0.4f, ConsumableItem.LONG_DURATION)));
         // Soup

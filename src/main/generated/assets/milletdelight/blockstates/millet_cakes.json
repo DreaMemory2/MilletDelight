@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "bites=0": {
+      "model": "milletdelight:block/millet_cakes"
+    },
+    "bites=1": {
+      "model": "milletdelight:block/millet_cakes_slice1"
+    },
+    "bites=2": {
+      "model": "milletdelight:block/millet_cakes_slice2"
+    },
+    "bites=3": {
+      "model": "milletdelight:block/millet_cakes_slice3"
+    },
+    "bites=4": {
+      "model": "milletdelight:block/millet_cakes_slice4"
+    },
+    "bites=5": {
+      "model": "milletdelight:block/millet_cakes_slice5"
+    },
+    "bites=6": {
+      "model": "milletdelight:block/millet_cakes_slice6"
+    }
+  }
+}

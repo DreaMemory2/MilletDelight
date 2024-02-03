@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "minecraft:block/oak_planks",
+    "east": "milletdelight:block/millet_table_side",
+    "north": "milletdelight:block/millet_table_front",
+    "particle": "milletdelight:block/millet_table_front",
+    "south": "milletdelight:block/millet_table_side",
+    "up": "milletdelight:block/millet_table_top",
+    "west": "milletdelight:block/millet_table_front"
+  }
+}

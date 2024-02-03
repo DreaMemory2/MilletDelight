@@ -1,12 +1,12 @@
 {
-  "parent": "milletdelight:main/root",
+  "parent": "milletdelight:main/material_food",
   "criteria": {
-    "millet_knife": {
+    "millet_cakes": {
       "conditions": {
         "items": [
           {
             "items": [
-              "milletdelight:millet_knife"
+              "milletdelight:millet_cakes"
             ]
           }
         ]
@@ -17,22 +17,21 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "milletdelight.advancement.millet_knife.desc"
+      "translate": "milletdelight.advancement.millet_cakes.desc"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "milletdelight:millet_knife",
-      "nbt": "{Damage:0}"
+      "item": "milletdelight:millet_cakes"
     },
     "show_toast": true,
     "title": {
-      "translate": "milletdelight.advancement.millet_knife"
+      "translate": "milletdelight.advancement.millet_cakes"
     }
   },
   "requirements": [
     [
-      "millet_knife"
+      "millet_cakes"
     ]
   ]
 }

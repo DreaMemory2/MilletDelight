@@ -1,9 +1,9 @@
 {
 	"schemaVersion": 1,
 	"id": "milletdelight",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"name": "Millet Delight",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a Millet Delight mod",
 	"authors": [
 		"Stalight"
 	],

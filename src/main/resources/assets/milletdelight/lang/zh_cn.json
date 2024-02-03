@@ -3,6 +3,8 @@
   "block.milletdelight.millet": "小米",
   "block.milletdelight.millet_bag" : "小米袋",
   "block.milletdelight.millet_bale": "小米块",
+  "block.milletdelight.millet_cakes": "小米蛋糕",
+  "block.milletdelight.millet_table": "小米工作台",
 
   "item.milletdelight.millet_gruel": "小米粥",
   "item.milletdelight.millet_pumpkin_soup": "小米南瓜粥",
@@ -42,7 +44,10 @@
   "item.milletdelight.potato_sauce": "土豆泥",
   "item.milletdelight.pestle_mortar": "杵和臼",
   "item.milletdelight.millet_panicle": "粟",
+  "item.milletdelight.millet_knife": "小米刀",
+  "item.milletdelight.millet_template": "小米锻造模板",
 
+  "entity.minecraft.villager.millet_farmer": "小米商人",
   "itemGroup.milletdelight.group" : "小米乐事",
 
   "milletdelight.advancement.root" : "小米乐事",
@@ -54,5 +59,23 @@
   "milletdelight.advancement.material_food": "提前准备",
   "milletdelight.advancement.material_food.desc": "制作小米粉和小米面条",
   "milletdelight.advancement.meat": "顿顿有肉",
-  "milletdelight.advancement.meat.desc": "小米与肉类灵魂组合"
+  "milletdelight.advancement.meat.desc": "小米与肉类灵魂组合",
+  "milletdelight.advancement.eat_meat.desc": "使用所有小米配肉",
+  "milletdelight.advancement.eat_meat": "再来一碗",
+  "milletdelight.advancement.millet_cookie": "扭一扭，泡一泡",
+  "milletdelight.advancement.millet_cookie.desc": "制作任意一个小米饼干",
+  "milletdelight.advancement.millet_cake": "软糯香甜的小米糕",
+  "milletdelight.advancement.millet_cake.desc": "制作任意一个小米糕",
+  "milletdelight.advancement.millet_cakes": "蛋糕是个谎言",
+  "milletdelight.advancement.millet_cakes.desc": "制作一个小米蛋糕",
+  "milletdelight.advancement.all_food": "吃遍天下",
+  "milletdelight.advancement.all_food.desc": "使用所有的小米系列食物",
+  "milletdelight.advancement.marshmallow": "云朵上的食物",
+  "milletdelight.advancement.marshmallow.desc": "制作棉花糖",
+  "milletdelight.advancement.cooked_marshmallow": "烧烤时间到",
+  "milletdelight.advancement.cooked_marshmallow.desc": "使用烤棉花糖",
+  "milletdelight.advancement.drink": "干杯！",
+  "milletdelight.advancement.drink.desc": "制作一杯小米酒、小麦酒和发光浆果酒",
+  "milletdelight.advancement.fried_millet": "真香定理",
+  "milletdelight.advancement.fried_millet.desc": "制作一份炒小米饭和小米饭"
 }

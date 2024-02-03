@@ -24,6 +24,13 @@ public class MilletDelight implements ModInitializer {
 		ModTags.registerTag();
 		/* Features */
 		ModFeatureGeneration.registerFeature();
+		/* BlockEntity */
+		ModBlockEntities.registerBlockEntities();
+		/* ScreenHandler */
+		ModScreenHandlers.registerAllScreenHandles();
+		/* Villager Register */
+		ModVillager.registerVillager();
+		ModVillager.registerTrades();
 
 		LOGGER.info("Hello Fabric world!");
 	}

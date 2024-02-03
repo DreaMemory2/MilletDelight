@@ -1,12 +1,12 @@
 {
-  "parent": "milletdelight:main/root",
+  "parent": "milletdelight:main/material_food",
   "criteria": {
-    "millet_knife": {
+    "marshmallow": {
       "conditions": {
         "items": [
           {
             "items": [
-              "milletdelight:millet_knife"
+              "milletdelight:marshmallow"
             ]
           }
         ]
@@ -17,22 +17,21 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "translate": "milletdelight.advancement.millet_knife.desc"
+      "translate": "milletdelight.advancement.marshmallow.desc"
     },
-    "frame": "task",
+    "frame": "goal",
     "hidden": false,
     "icon": {
-      "item": "milletdelight:millet_knife",
-      "nbt": "{Damage:0}"
+      "item": "milletdelight:marshmallow"
     },
     "show_toast": true,
     "title": {
-      "translate": "milletdelight.advancement.millet_knife"
+      "translate": "milletdelight.advancement.marshmallow"
     }
   },
   "requirements": [
     [
-      "millet_knife"
+      "marshmallow"
     ]
   ]
 }
