@@ -67,11 +67,11 @@ public class ModItemsRegistry {
                 new Item(ModItemsRegistry.dessert(2, 0.1f)));
         // Wine
         ItemList.MilletWine = registerItem("millet_wine",
-                new DrinkableItem(ModItemsRegistry.drink(1, 0)));
+                new DrinkableItem(ModItemsRegistry.drink()));
         ItemList.WheatWine = registerItem("wheat_wine",
-                new DrinkableItem(ModItemsRegistry.drink(2, 0)));
+                new DrinkableItem(ModItemsRegistry.drink()));
         ItemList.GlowBerryWine = registerItem("glow_berry_wine",
-                new DrinkableItem(ModItemsRegistry.drink(0, 1.0F)));
+                new DrinkableItem(ModItemsRegistry.drink()));
 
         /* -- 小米系列 --  */
         // 小吃
@@ -134,9 +134,9 @@ public class ModItemsRegistry {
                 .saturationModifier(saturation).build());
     }
 
-    private static FabricItemSettings drink(int huger, float saturation) {
+    private static FabricItemSettings drink() {
         return new FabricItemSettings().recipeRemainder(Items.GLASS_BOTTLE).maxCount(16)
-                .food(new FoodComponent.Builder().hunger(huger)
-                        .saturationModifier(saturation).build());
+                .food(new FoodComponent.Builder().hunger(2)
+                        .saturationModifier(0).build());
     }
 }
