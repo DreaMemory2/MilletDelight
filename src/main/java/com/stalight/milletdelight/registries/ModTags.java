@@ -4,7 +4,6 @@ import com.stalight.milletdelight.MilletDelight;
 import net.minecraft.item.Item;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static TagKey<Item> milletCookie;

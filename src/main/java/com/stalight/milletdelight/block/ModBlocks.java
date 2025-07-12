@@ -40,8 +40,7 @@ public class ModBlocks {
 
     private static Block withoutBlockItem(String name, Function<Settings, Block> factory, Settings settings) {
         RegistryKey<Block> key = RegistryKey.of(RegistryKeys.BLOCK, MilletDelight.of(name));
-        Block block = Blocks.register(key, factory, settings);
-        return block;
+        return Blocks.register(key, factory, settings);
     }
 
     public static void init() {

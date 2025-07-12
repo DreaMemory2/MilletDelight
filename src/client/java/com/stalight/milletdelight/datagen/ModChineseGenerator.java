@@ -80,6 +80,7 @@ public class ModChineseGenerator extends FabricLanguageProvider {
         /* -- 小米系列 --  */
         // 小吃
         builder.add(ModItems.POTATO_ROLLS, "煎饼果子");
+        builder.add(ModItems.MilletBall, "小米炸丸");
         /* 主食 */
         // 米饭
         builder.add(ModItems.MILLET_RICE, "小米饭");

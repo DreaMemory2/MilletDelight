@@ -69,6 +69,7 @@ public class ModLanguageGenerator extends FabricLanguageProvider {
         /* -- 小米系列 --  */
         // Snake
         builder.add(ModItems.POTATO_ROLLS, "Potato Silk Rolls");
+        builder.add(ModItems.MilletBall, "Fried Millet Dough Balls");
         /* Main Food */
         // Rice
         builder.add(ModItems.MILLET_RICE, "Millet Rice");

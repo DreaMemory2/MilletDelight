@@ -76,10 +76,6 @@ public class ModVillager {
         });
     }
 
-    public static VillagerProfession registerAndGetDefault(Registry<VillagerProfession> registry) {
-        return register(registry, MILLET_FARMER, MILLET_FARMER_TYPE, ImmutableSet.of(ModBlocks.MILLET_BALE.asItem()));
-    }
-
     private static VillagerProfession register(Registry<VillagerProfession> registry,
                                                RegistryKey<VillagerProfession> key,
                                                RegistryKey<PointOfInterestType> heldWorkstation,
