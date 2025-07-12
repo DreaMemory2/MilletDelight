@@ -21,7 +21,6 @@ import net.minecraft.world.poi.PointOfInterestType;
 
 public class ModVillager {
     public static final RegistryKey<VillagerProfession> MILLET_FARMER = RegistryKey.of(RegistryKeys.VILLAGER_PROFESSION, MilletDelight.of("millet_farmer"));
-    public static final RegistryKey<PointOfInterestType> MILLET_FARMER_TYPE = RegistryKey.of(RegistryKeys.POINT_OF_INTEREST_TYPE, MilletDelight.of("millet_farmer"));
 
     public static void registerTrades() {
         TradeOfferHelper.registerVillagerOffers(MILLET_FARMER, 1, factories -> {

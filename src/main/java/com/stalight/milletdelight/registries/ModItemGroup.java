@@ -21,8 +21,4 @@ public class ModItemGroup {
                 .icon(() -> new ItemStack(ModItems.MilletDust))
                 .build());
     }
-
-    private static ItemGroup.EntryCollector group() {
-        return (context, list) -> {};
-    }
 }
