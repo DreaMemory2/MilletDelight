@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "milletdelight:millet_noodle"
+    },
+    {
+      "item": "milletdelight:potato_sauce"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "milletdelight:potato_millet_noodles"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

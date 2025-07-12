@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "milletdelight:millet_cookie",
+    "milletdelight:marshmallow",
+    "milletdelight:cooked_marshmallow",
+    "milletdelight:chocolate_cookie",
+    "milletdelight:honey_cookie",
+    "milletdelight:milk_cookie",
+    "milletdelight:sculk_cookie",
+    "milletdelight:sweet_berry_cookie"
+  ]
+}

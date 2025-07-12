@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "ingredients": [
+    {
+      "type": "minecraft:water",
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "item": "milletdelight:wheat_wine"
+  },
+  "container": {
+    "item": "minecraft:glass_bottle"
+  }
+}

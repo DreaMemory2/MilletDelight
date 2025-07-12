@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "top": "milletdelight:block/millet_bale_top",
+    "side": "milletdelight:block/millet_bale_side",
+    "bottom": "milletdelight:block/millet_bale_bottom"
+  }
+}

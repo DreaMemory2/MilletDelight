@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "milletdelight:block/millet_stage2"
+  }
+}

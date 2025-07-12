@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "milletdelight:millet"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "item": "milletdelight:fried_millet"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

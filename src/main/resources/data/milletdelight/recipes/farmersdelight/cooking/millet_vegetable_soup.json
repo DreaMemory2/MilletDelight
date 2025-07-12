@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "farmersdelight:cabbage_leaf"
+    },
+    {
+      "item": "milletdelight:millet"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "milletdelight:millet_vegetable_soup"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

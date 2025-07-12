@@ -1,0 +1,50 @@
+{
+  "parent": "milletdelight:main/material_food",
+  "criteria": {
+    "fried_millet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:fried_millet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "cooked_millet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:cooked_millet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.fried_millet.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:fried_millet"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.fried_millet"
+    }
+  },
+  "requirements": [
+    [
+      "fried_millet",
+      "cooked_millet"
+    ]
+  ]
+}

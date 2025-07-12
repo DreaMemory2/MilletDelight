@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "milletdelight:marshmallow"
+  },
+  "result": "milletdelight:cooked_marshmallow",
+  "experience": 0.15,
+  "cookingtime": 200
+}

@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "milletdelight:millet"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "milletdelight:millet_porkchop"
+  },
+  "container": {
+    "item": "minecraft:bowl"
+  }
+}

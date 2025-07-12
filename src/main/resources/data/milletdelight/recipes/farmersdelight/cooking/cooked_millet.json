@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 100,
+  "experience": 0.35,
+  "ingredients": [
+    {
+      "item": "milletdelight:millet"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "result": {
+    "item": "milletdelight:cooked_millet"
+  }
+}
