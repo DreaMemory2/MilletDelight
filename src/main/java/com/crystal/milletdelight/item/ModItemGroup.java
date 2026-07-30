@@ -5,14 +5,11 @@ import com.crystal.milletdelight.block.MilletBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
 public class ModItemGroup {
-    public static final ResourceKey<CreativeModeTab> TABS = ResourceKey.create(Registries.CREATIVE_MODE_TAB, MilletDelight.of("group"));
     public static final CreativeModeTab GROUP = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, MilletDelight.of("group"), FabricItemGroup.builder()
             .title(Component.translatable("itemGroup.milletdelight.group"))
             .icon(() -> new ItemStack(MilletItems.MILLET_DUST))
