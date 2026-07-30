@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "bone_broth": {
+      "conditions": {
+        "items": [
+          {
+            "items": "farmersdelight:bone_broth"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "milletdelight:cooking/bone_millet_noodles"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "bone_broth"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "milletdelight:cooking/bone_millet_noodles"
+    ]
+  }
+}

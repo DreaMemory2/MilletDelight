@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_millet_bag": {
+      "conditions": {
+        "items": [
+          {
+            "items": "milletdelight:millet_bag"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "milletdelight:millet"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_millet_bag"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "milletdelight:millet"
+    ]
+  }
+}

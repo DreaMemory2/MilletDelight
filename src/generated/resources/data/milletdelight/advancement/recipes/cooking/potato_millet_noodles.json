@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_potato_sauce": {
+      "conditions": {
+        "items": [
+          {
+            "items": "milletdelight:millet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "milletdelight:cooking/potato_millet_noodles"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_potato_sauce"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "milletdelight:cooking/potato_millet_noodles"
+    ]
+  }
+}
