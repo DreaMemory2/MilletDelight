@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_millet_template": {
+      "conditions": {
+        "items": [
+          {
+            "items": "milletdelight:millet_template"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "milletdelight:millet_knife"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_millet_template"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "milletdelight:millet_knife"
+    ]
+  }
+}

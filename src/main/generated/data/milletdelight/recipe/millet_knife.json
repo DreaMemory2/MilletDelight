@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "milletdelight:millet"
+  },
+  "base": {
+    "item": "farmersdelight:golden_knife"
+  },
+  "result": {
+    "count": 1,
+    "id": "milletdelight:millet_knife"
+  },
+  "template": {
+    "item": "milletdelight:millet_template"
+  }
+}

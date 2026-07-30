@@ -1,0 +1,36 @@
+{
+  "parent": "milletdelight:main/root",
+  "criteria": {
+    "plant_millet": {
+      "conditions": {
+        "location": [
+          {
+            "block": "milletdelight:millet",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.plant_millet.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:millet_panicle"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.plant_millet"
+    }
+  },
+  "requirements": [
+    [
+      "plant_millet"
+    ]
+  ]
+}
