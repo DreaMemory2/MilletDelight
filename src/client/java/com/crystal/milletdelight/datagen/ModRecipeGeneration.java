@@ -1,6 +1,5 @@
 package com.crystal.milletdelight.datagen;
 
-import com.crystal.milletdelight.MilletDelight;
 import com.crystal.milletdelight.item.MilletItems;
 import com.crystal.milletdelight.tag.ICommonTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
