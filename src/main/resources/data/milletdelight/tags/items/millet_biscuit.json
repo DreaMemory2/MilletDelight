@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "milletdelight:millet_biscuit",
+    "milletdelight:spun_sugar",
+    "milletdelight:cooked_spun_sugar",
+    "milletdelight:chocolate_biscuit",
+    "milletdelight:honey_biscuit",
+    "milletdelight:milk_biscuit",
+    "milletdelight:sculk_biscuit",
+    "milletdelight:sweet_berry_biscuit"
+  ]
+}

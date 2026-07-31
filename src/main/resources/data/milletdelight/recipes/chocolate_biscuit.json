@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "milletdelight:millet_biscuit"
+    }
+  ],
+  "result": {
+    "item": "milletdelight:chocolate_biscuit"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/cake_slice5",
+  "textures": {
+    "top": "milletdelight:block/millet_cakes_top",
+    "down": "milletdelight:block/millet_cakes_bottom",
+    "side": "milletdelight:block/millet_cakes_side",
+    "inside": "milletdelight:block/millet_cakes_inner",
+    "particle": "milletdelight:block/millet_cakes_top"
+  }
+}

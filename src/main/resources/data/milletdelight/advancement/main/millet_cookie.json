@@ -1,0 +1,42 @@
+{
+  "parent": "milletdelight:main/material_food",
+  "criteria": {
+    "millet_cookie": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:millet_cookie",
+              "milletdelight:chocolate_cookie",
+              "milletdelight:honey_cookie",
+              "milletdelight:milk_cookie",
+              "milletdelight:sculk_cookie",
+              "milletdelight:sweet_berry_cookie"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.millet_cookie.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:millet_cookie"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.millet_cookie"
+    }
+  },
+  "requirements": [
+    [
+      "millet_cookie"
+    ]
+  ]
+}

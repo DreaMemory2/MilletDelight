@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"id": "milletdelight",
+	"version": "${version}",
+	"name": "Millet Delight",
+	"description": "This is a Millet Delight mod",
+	"authors": [
+		"Crystal"
+	],
+	"contact": {
+		"homepage": "https://www.mcmod.cn/class/13432.html",
+		"sources": "https://github.com/DreaMemory2/MilletDelight"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/milletdelight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.crystal.milletdelight.MilletDelight"
+		],
+		"client": [
+			"com.crystal.milletdelight.MilletDelightClient"
+		],
+		"fabric-datagen": [
+			"com.crystal.milletdelight.MilletDelightDataGenerator"
+		],
+		"jei_mod_plugin": [
+			"com.crystal.milletdelight.compat.MilletJeiPlugin"
+		]
+	},
+	"mixins": [
+		"milletdelight.mixins.json",
+		{
+			"config": "milletdelight.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

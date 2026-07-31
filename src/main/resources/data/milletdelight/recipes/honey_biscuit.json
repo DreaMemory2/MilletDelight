@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "milletdelight:millet_biscuit"
+    }
+  ],
+  "result": {
+    "item": "milletdelight:honey_biscuit"
+  }
+}

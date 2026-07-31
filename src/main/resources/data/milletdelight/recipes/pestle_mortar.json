@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "minecraft:oak_planks"
+    },
+    "c": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "pattern": [
+    " a ",
+    "b  ",
+    "c  "
+  ],
+  "result": {
+    "item": "milletdelight:pestle_mortar"
+  }
+}

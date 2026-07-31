@@ -1,0 +1,50 @@
+{
+  "parent": "milletdelight:main/root",
+  "criteria": {
+    "millet_dust": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:millet_dust"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "millet_noodle": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:millet_noodle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.material_food.desc"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:millet_dust"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.material_food"
+    }
+  },
+  "requirements": [
+    [
+      "millet_dust",
+      "millet_noodle"
+    ]
+  ]
+}

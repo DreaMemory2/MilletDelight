@@ -1,0 +1,63 @@
+{
+  "parent": "milletdelight:main/material_food",
+  "criteria": {
+    "wheat_wine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:wheat_wine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "millet_wine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:millet_wine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "glow_berry_wine": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:glow_berry_wine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.drink.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:millet_wine"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.drink"
+    }
+  },
+  "requirements": [
+    [
+      "wheat_wine",
+      "millet_wine",
+      "glow_berry_wine"
+    ]
+  ]
+}

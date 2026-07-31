@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "milletdelight:spun_sugar"
+  },
+  "result": "milletdelight:cooked_spun_sugar",
+  "experience": 0.15,
+  "cookingtime": 200
+}
