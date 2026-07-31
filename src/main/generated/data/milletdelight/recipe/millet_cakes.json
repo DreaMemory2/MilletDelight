@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "minecraft:milk_bucket",
+    "B": "milletdelight:millet",
+    "C": "minecraft:sugar",
+    "D": "#c:egg",
+    "E": "minecraft:wheat"
+  },
+  "pattern": [
+    "ABA",
+    "CDC",
+    "EEE"
+  ],
+  "result": {
+    "id": "milletdelight:millet_cakes"
+  }
+}

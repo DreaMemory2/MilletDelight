@@ -1,0 +1,11 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    "milletdelight:millet",
+    "minecraft:potato"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "milletdelight:potato_rolls"
+  }
+}

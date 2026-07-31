@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "milletdelight:millet",
+  "base": "farmersdelight:golden_knife",
+  "result": {
+    "id": "milletdelight:millet_knife"
+  },
+  "template": "milletdelight:millet_template"
+}

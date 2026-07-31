@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    "milletdelight:millet_panicle"
+  ],
+  "result": [
+    {
+      "item": {
+        "id": "milletdelight:millet"
+      }
+    },
+    {
+      "item": {
+        "id": "farmersdelight:straw"
+      }
+    }
+  ],
+  "tool": "milletdelight:millet_panicle"
+}

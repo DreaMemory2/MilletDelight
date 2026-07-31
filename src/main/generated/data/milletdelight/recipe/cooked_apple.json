@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 250,
+  "experience": 0.15,
+  "ingredient": "minecraft:apple",
+  "result": {
+    "id": "milletdelight:cooked_apple"
+  }
+}

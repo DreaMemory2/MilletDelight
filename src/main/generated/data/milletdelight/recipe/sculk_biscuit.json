@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "milletdelight:millet_biscuit",
+    "minecraft:sculk"
+  ],
+  "result": {
+    "id": "milletdelight:sculk_biscuit"
+  }
+}

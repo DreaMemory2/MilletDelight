@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "milletdelight",
+	"version": "${version}",
+	"name": "Millet Delight",
+	"description": "这是小米乐事，这个模组有多种食物，饮品，点心等\nThis is an Millet Delight. This module includes various foods, drinks, snacks, and more.",
+	"authors": [
+		"Crystal"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"icon": "assets/milletdelight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.crystal.milletdelight.MilletDelight"
+		],
+		"client": [
+			"com.crystal.milletdelight.MilletDelightClient"
+		],
+		"fabric-datagen": [
+			"com.crystal.milletdelight.MilletDelightDataGenerator"
+		],
+		"jei_mod_plugin": [
+			"com.crystal.milletdelight.compat.MilletJeiPlugin"
+		]
+	},
+	"mixins": [
+		"milletdelight.mixins.json",
+		{
+			"config": "milletdelight.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

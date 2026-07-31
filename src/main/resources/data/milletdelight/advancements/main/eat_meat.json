@@ -1,0 +1,64 @@
+{
+  "parent": "milletdelight:main/meat",
+  "criteria": {
+    "millet_beef": {
+      "conditions": {
+        "item": {
+          "items": [
+            "milletdelight:millet_beef"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "millet_chicken": {
+      "conditions": {
+        "item": {
+          "items": [
+            "milletdelight:millet_chicken"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "millet_porkchop": {
+      "conditions": {
+        "item": {
+          "items": [
+            "milletdelight:millet_porkchop"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.eat_meat.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:millet_chicken"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.eat_meat"
+    }
+  },
+  "requirements": [
+    [
+      "millet_beef"
+    ],
+    [
+      "millet_chicken"
+    ],
+    [
+      "millet_porkchop"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

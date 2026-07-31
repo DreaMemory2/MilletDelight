@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "milletdelight:millet_dust",
+    "milletdelight:millet_dust",
+    "minecraft:water_bucket"
+  ],
+  "result": {
+    "id": "milletdelight:millet_noodle"
+  }
+}

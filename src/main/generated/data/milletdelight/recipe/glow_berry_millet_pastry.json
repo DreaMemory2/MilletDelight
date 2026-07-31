@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "milletdelight:millet_dust",
+    "minecraft:sugar",
+    "minecraft:glow_berries"
+  ],
+  "result": {
+    "id": "milletdelight:glow_berry_millet_pastry"
+  }
+}

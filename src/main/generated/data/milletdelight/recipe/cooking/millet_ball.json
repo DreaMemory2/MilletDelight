@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "ingredients": [
+    "milletdelight:millet_dust",
+    "milletdelight:millet_dust",
+    "minecraft:sugar",
+    "minecraft:sugar"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "milletdelight:millet_ball"
+  }
+}

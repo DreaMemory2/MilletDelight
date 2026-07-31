@@ -1,0 +1,37 @@
+{
+  "parent": "milletdelight:main/material_food",
+  "criteria": {
+    "millet_cakes": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "milletdelight:millet_cakes"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "milletdelight.advancement.millet_cakes.desc"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "milletdelight:millet_cakes"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "milletdelight.advancement.millet_cakes"
+    }
+  },
+  "requirements": [
+    [
+      "millet_cakes"
+    ]
+  ]
+}

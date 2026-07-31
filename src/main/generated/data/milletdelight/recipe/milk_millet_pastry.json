@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "milletdelight:millet_dust",
+    "minecraft:sugar",
+    "farmersdelight:milk_bottle"
+  ],
+  "result": {
+    "id": "milletdelight:milk_millet_pastry"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cake",
+  "textures": {
+    "top": "milletdelight:block/millet_cakes_top",
+    "down": "milletdelight:block/millet_cakes_bottom",
+    "side": "milletdelight:block/millet_cakes_side",
+    "particle": "milletdelight:block/millet_cakes_top"
+  }
+}

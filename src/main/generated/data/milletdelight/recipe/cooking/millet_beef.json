@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "ingredients": [
+    "milletdelight:millet",
+    "minecraft:cooked_beef"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "milletdelight:millet_beef"
+  }
+}

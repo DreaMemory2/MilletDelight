@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    "minecraft:sugar",
+    "minecraft:sugar",
+    {
+      "fabric:type": "fabric:components",
+      "base": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water"
+        }
+      }
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "milletdelight:spun_sugar"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "id": "minecraft:bowl"
+  },
+  "ingredients": [
+    "milletdelight:millet",
+    "farmersdelight:tomato_sauce"
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "id": "milletdelight:tomato_millet_noodles"
+  }
+}

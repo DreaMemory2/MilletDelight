@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "milletdelight:millet_bag"
+  ],
+  "result": {
+    "count": 9,
+    "id": "milletdelight:millet"
+  }
+}
